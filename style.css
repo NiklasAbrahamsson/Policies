@@ -37,6 +37,14 @@ h2 {
     color: #1d1d1f;
 }
 
+h3 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 0.4rem;
+    color: #1d1d1f;
+}
+
 p {
     margin-bottom: 1rem;
 }
@@ -130,6 +138,68 @@ details > ul {
     font-weight: 600;
     width: 40%;
     color: #6e6e73;
+}
+
+/* Callout / summary box */
+.callout {
+    background-color: #f0f7ff;
+    border: 1px solid #cfe4fb;
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+    margin: 1.5rem 0;
+}
+
+.callout p:last-child,
+.callout ul:last-child {
+    margin-bottom: 0;
+}
+
+/* Data / pricing tables */
+.table-wrap {
+    overflow-x: auto;
+    margin-bottom: 1.25rem;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+}
+
+.data-table th,
+.data-table td {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #e0e0e0;
+    text-align: left;
+    vertical-align: top;
+}
+
+.data-table th {
+    background-color: #f5f5f7;
+    font-weight: 600;
+    color: #1d1d1f;
+}
+
+.data-table code {
+    font-size: 0.85rem;
+    word-break: break-all;
+}
+
+/* Small print / legal meta line */
+.doc-meta {
+    font-size: 0.9rem;
+    color: #6e6e73;
+    margin-bottom: 2rem;
+}
+
+.doc-meta span {
+    display: block;
+}
+
+/* Back-to-hub nav */
+.doc-nav {
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
 }
 
 /* Page index list */
